@@ -1,0 +1,33 @@
+.component-1-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fdffb1;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.cogeneration-system {
+  position: absolute;
+  height: 39.27%;
+  width: 72.54%;
+  top: 13.71%;
+  left: 13.87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 346px;
+  height: 178px;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Poppins;
+}

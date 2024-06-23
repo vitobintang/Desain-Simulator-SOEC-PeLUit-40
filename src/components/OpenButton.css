@@ -1,0 +1,36 @@
+.start-button-item {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: rgba(114, 255, 145, 0.13);
+  border: 2px solid #72ff91;
+  box-sizing: border-box;
+  height: 57px;
+}
+.start-button-item,
+.start-button1,
+.start1 {
+  position: absolute;
+  width: 321px;
+}
+.start1 {
+  top: 15.4px;
+  left: 0;
+  font-size: 30px;
+  display: flex;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 26.7px;
+}
+.start-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 586px;
+  left: 790px;
+  height: 57px;
+}

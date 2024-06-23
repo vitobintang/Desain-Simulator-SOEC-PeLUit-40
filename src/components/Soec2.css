@@ -1,0 +1,245 @@
+.soec2-icon {
+  position: absolute;
+  top: 202px;
+  left: 105px;
+  width: 1689px;
+  height: 672px;
+  object-fit: cover;
+}
+.kghr {
+  margin: 0;
+}
+.kghr-200-c-container,
+.kghr-701-c-container {
+  position: absolute;
+  top: 266px;
+  left: 0;
+  line-height: 12px;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kghr-701-c-container {
+  top: 149px;
+  left: 55px;
+}
+.kghr-1000-c-container,
+.kghr-1000-c-container1,
+.kghr-1000-c-container2,
+.kghr-1000-c-container3,
+.kghr-500-c-container {
+  position: absolute;
+  top: 314px;
+  left: 312px;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kghr-1000-c-container,
+.kghr-1000-c-container1,
+.kghr-1000-c-container2,
+.kghr-1000-c-container3 {
+  left: 539px;
+}
+.kghr-1000-c-container1,
+.kghr-1000-c-container2,
+.kghr-1000-c-container3 {
+  top: 165px;
+  left: 708px;
+}
+.kghr-1000-c-container2,
+.kghr-1000-c-container3 {
+  top: 203px;
+  left: 870px;
+}
+.kghr-1000-c-container3 {
+  top: 392px;
+  left: 848px;
+}
+.kghr-998-c-container {
+  top: 590px;
+  left: 948px;
+}
+.kghr-20-c-container,
+.kghr-20-c-container1,
+.kghr-998-c-container {
+  position: absolute;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kghr-20-c-container {
+  top: 460px;
+  left: 1121px;
+  text-align: right;
+}
+.kghr-20-c-container1 {
+  top: 431px;
+  left: 1347px;
+}
+.kghr-20-c-container2,
+.kghr-258-c-container,
+.kghr-500-c-container1,
+.kghr-701-c-container1,
+.kghr-701-c-container2 {
+  position: absolute;
+  top: 542px;
+  left: 1347px;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kghr-258-c-container,
+.kghr-500-c-container1,
+.kghr-701-c-container1,
+.kghr-701-c-container2 {
+  top: 371px;
+  left: 1019px;
+}
+.kghr-258-c-container,
+.kghr-701-c-container1,
+.kghr-701-c-container2 {
+  top: 460px;
+  left: 725px;
+}
+.kghr-701-c-container1,
+.kghr-701-c-container2 {
+  top: 59px;
+  left: 610px;
+}
+.kghr-701-c-container2 {
+  top: 2px;
+  left: 525px;
+}
+.kghr-1000-c-container4,
+.kghr-20-c-container3,
+.kghr-25-c-container,
+.kghr-25-c-container1,
+.kghr-25-c-container2,
+.kghr-252-c-container {
+  position: absolute;
+  top: 0;
+  left: 768px;
+  line-height: 12px;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kghr-1000-c-container4,
+.kghr-20-c-container3,
+.kghr-25-c-container1,
+.kghr-25-c-container2,
+.kghr-252-c-container {
+  left: 949px;
+}
+.kghr-1000-c-container4,
+.kghr-20-c-container3,
+.kghr-25-c-container2,
+.kghr-252-c-container {
+  left: 1137px;
+}
+.kghr-1000-c-container4,
+.kghr-20-c-container3,
+.kghr-25-c-container2 {
+  top: 118px;
+  left: 1049px;
+}
+.kghr-1000-c-container4,
+.kghr-20-c-container3 {
+  top: 442px;
+  left: 431px;
+}
+.kghr-20-c-container3 {
+  top: 558px;
+  left: 482px;
+}
+.soec2 {
+  position: absolute;
+  top: 235px;
+  left: 204px;
+  width: 1462px;
+  height: 622px;
+  text-align: left;
+  font-size: 10px;
+}
+.hydrogen-generated-soec-2-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fdffb1;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 346px;
+  height: 178px;
+}
+.hydrogen-generated-soec {
+  position: absolute;
+  top: 30.9px;
+  left: 47px;
+  display: inline-block;
+  width: 251px;
+  height: 45.5px;
+}
+.hydrogen-generated-soec-2,
+.water-produced1 {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  width: 346px;
+  height: 178px;
+}
+.water-produced1 {
+  top: 53.6px;
+  left: 45px;
+  display: inline-block;
+  width: 251px;
+  height: 45.5px;
+}
+.enriched-air-generated,
+.mw,
+.water-produced {
+  position: absolute;
+  top: 0;
+  left: 598px;
+  width: 346px;
+  height: 178px;
+}
+.enriched-air-generated,
+.mw {
+  left: 956px;
+}
+.mw {
+  top: 106.5px;
+  left: 115px;
+  display: inline-block;
+  width: 115px;
+  height: 26px;
+}
+.power-needed-for-soec-module {
+  position: absolute;
+  top: 0;
+  left: 1314px;
+  width: 346px;
+  height: 178px;
+}
+.soec2-parent {
+  width: 100%;
+  position: relative;
+  background-color: #e5ffd9;
+  height: 940px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  font-family: Poppins;
+}

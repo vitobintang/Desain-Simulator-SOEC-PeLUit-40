@@ -1,0 +1,481 @@
+/* Popup container */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure popup is on top */
+}
+
+/* Popup content */
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Popup title */
+.popup-content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Popup message */
+.popup-content p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Popup button */
+.popup-content button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Popup button hover effect */
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.b,
+.run-time1 {
+  position: absolute;
+}
+.b {
+  top: 103px;
+  left: 115px;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.run-time1 {
+  height: 25.56%;
+  width: 72.54%;
+  top: 24.16%;
+  left: 13.58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mw2,
+.run-time {
+  position: absolute;
+  top: 0;
+  left: 1432px;
+  width: 346px;
+  height: 178px;
+}
+.mw2 {
+  top: 106.5px;
+  left: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 26px;
+}
+.electric-power-generated,
+.hydrogen-generated,
+.power-needed-for-soec-module2 {
+  position: absolute;
+  top: 0;
+  left: 1074px;
+  width: 346px;
+  height: 178px;
+}
+.electric-power-generated,
+.hydrogen-generated {
+  left: 716px;
+}
+.electric-power-generated {
+  left: 358px;
+}
+.start,
+.start-button-child {
+  position: absolute;
+  left: 0;
+  width: 126px;
+}
+.start-button-child {
+  top: 0;
+  border-radius: 30px;
+  background-color: #72ff91;
+  height: 64px;
+}
+.start {
+  top: 17px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+  height: 30px;
+}
+.start-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 89px;
+  left: 34px;
+}
+.start-button,
+.stop-button,
+.stop-button-child {
+  position: absolute;
+  width: 126px;
+  height: 64px;
+}
+.stop-button-child {
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #dc5151;
+}
+.stop-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 91px;
+  left: 186px;
+}
+.frame,
+.frame-icon,
+.frame1,
+.tittle-and-startstop-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 346px;
+  height: 178px;
+}
+.frame,
+.frame-icon,
+.frame1 {
+  width: 1778px;
+  overflow: hidden;
+}
+.frame,
+.frame-icon {
+  left: 61px;
+}
+.frame-icon {
+  left: 0;
+  width: 1796px;
+  height: 618px;
+  object-fit: cover;
+}
+.soecbutton1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #72ff91;
+  width: 75px;
+  height: 38.1px;
+}
+.deactivate {
+  top: 10px;
+  left: 0;
+  font-size: 10px;
+  display: flex;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 17.9px;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.deactivate,
+.frame4,
+.soecbutton1 {
+  position: absolute;
+  width: 75px;
+}
+.soecbutton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 78.1px;
+  left: 0;
+  height: 38.1px;
+  position: relative; /* Ensure the button is positioned properly */
+  z-index: 10; /* Adjust z-index as necessary */
+  pointer-events: auto; /* Ensure pointer events are enabled */
+}
+.frame4 {
+  top: 250.9px;
+  left: 1023px;
+  height: 116.2px;
+  overflow: hidden;
+}
+.soecbutton2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 344.1px;
+  left: 0;
+  width: 75px;
+  height: 38.1px;
+  position: relative; /* Ensure the button is positioned properly */
+  z-index: 10; /* Adjust z-index as necessary */
+  pointer-events: auto; /* Ensure pointer events are enabled */
+}
+.frame5,
+.output,
+.soecbutton2 {
+  position: absolute;
+}
+.frame5 {
+  top: 117.9px;
+  left: 1023px;
+  width: 75px;
+  height: 382.2px;
+  overflow: hidden;
+}
+.output {
+  top: 197px;
+  left: 845px;
+  text-align: center;
+  width: 132px;
+  height: 18px;
+}
+.kghr49,
+.output,
+.output1 {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.output1 {
+  position: absolute;
+  top: 335px;
+  left: 845px;
+  text-align: center;
+  width: 132px;
+  height: 18px;
+}
+.kghr49 {
+  top: 218px;
+  left: 873px;
+  width: 75px;
+  height: 17.9px;
+}
+.kghr49,
+.kghr50,
+.mw4 {
+  position: absolute;
+  text-align: center;
+}
+.kghr50 {
+  top: 356px;
+  left: 873px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 17.9px;
+}
+.mw4 {
+  top: 31px;
+  left: 1331px;
+  font-size: 25px;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kgs {
+  margin: 0;
+}
+.kgs-245-c-container,
+.kgs-700-c-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kgs-700-c-container {
+  top: 150px;
+}
+.kgs-32-c-container {
+  top: 199px;
+  left: 245px;
+}
+.kgs-175-c-container,
+.kgs-32-c-container,
+.kgs-32-c-container1,
+.kgs-32-c-container2,
+.kgs-4151-c-container {
+  position: absolute;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kgs-175-c-container {
+  top: 198px;
+  left: 600px;
+  text-align: left;
+}
+.kgs-32-c-container1,
+.kgs-32-c-container2,
+.kgs-4151-c-container {
+  top: 314px;
+  left: 1211px;
+}
+.kgs-32-c-container1,
+.kgs-32-c-container2 {
+  top: 316px;
+  left: 1395px;
+}
+.kgs-32-c-container2 {
+  top: 384px;
+  left: 1433px;
+  text-align: left;
+}
+.kgs-145-c-container {
+  top: 373px;
+  left: 352px;
+}
+.kgs-145-c-container,
+.kgs-24641-c-container,
+.kgs-26206-c-container,
+.kgs-9461-c-container,
+.kgs-9461-c-container1 {
+  position: absolute;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kgs-24641-c-container {
+  top: 352px;
+  left: 1002px;
+  text-align: left;
+}
+.kgs-26206-c-container,
+.kgs-9461-c-container,
+.kgs-9461-c-container1 {
+  top: 506px;
+  left: 977px;
+}
+.kgs-26206-c-container,
+.kgs-9461-c-container1 {
+  top: 447px;
+  left: 1234px;
+}
+.kgs-26206-c-container {
+  top: 65px;
+  left: 570px;
+}
+.kgs-1457-c-container {
+  top: 490px;
+  left: 182px;
+}
+.kgs-1445-c-container,
+.kgs-1457-c-container,
+.kgs-520-c-container {
+  position: absolute;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 32px;
+}
+.kgs-1445-c-container {
+  top: 490px;
+  left: 357px;
+  text-align: left;
+}
+.kgs-520-c-container {
+  top: 9px;
+  left: 222px;
+}
+.main-system {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1548px;
+  height: 538px;
+}
+.frame-icon2,
+.frame-icon1,
+.frame6 {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 1548px;
+  height: 618px;
+  overflow: hidden;
+}
+.frame-icon2,
+.frame-icon1 {
+  cursor: pointer;
+  top: 245px;
+  left: 835px;
+  width: 167px;
+  height: 128px;
+  object-fit: cover;
+}
+.frame-icon2 {
+  top: 384px;
+  height: 127px;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1796px;
+  height: 618px;
+}
+.frame2,
+.frame3,
+.main {
+  overflow: hidden;
+}
+.frame2 {
+  position: absolute;
+  top: 222px;
+  left: 23px;
+  width: 1854px;
+  height: 618px;
+  text-align: right;
+  font-size: 10px;
+}
+.main {
+  width: 100%;
+  position: relative;
+  background-color: #e5ffd9;
+  height: 940px;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  font-family: Poppins;
+}

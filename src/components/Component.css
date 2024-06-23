@@ -1,0 +1,31 @@
+.component-3-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fdffb1;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.power-needed-for2 {
+  position: absolute;
+  height: 25.56%;
+  width: 72.54%;
+  top: 12.92%;
+  left: 13.58%;
+  display: inline-block;
+}
+.component-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 346px;
+  height: 178px;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  font-family: Poppins;
+}

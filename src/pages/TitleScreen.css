@@ -1,0 +1,81 @@
+.depth-6-frame-0 {
+  position: absolute;
+  top: -21px;
+  left: -10px;
+  border-radius: 12px;
+  width: 1920px;
+  height: 987px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.credit-button-child {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #d6ffd0;
+  border: 2px solid #72ff91;
+  box-sizing: border-box;
+  height: 57px;
+}
+.credit,
+.credit-button,
+.credit-button-child {
+  position: absolute;
+  width: 321px;
+}
+.credit {
+  top: 15.4px;
+  left: 0;
+  font-size: 30px;
+  display: flex;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 26.7px;
+}
+.credit-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 693px;
+  left: 792px;
+  height: 57px;
+}
+.cogeneration-system-simulator {
+  margin: 0;
+}
+.cogeneration-system-simulator-container,
+.cogeneration-system-simulator-container1 {
+  position: absolute;
+  height: 98.7%;
+  width: 99.79%;
+  top: 1.3%;
+  left: 0.11%;
+  display: inline-block;
+}
+.cogeneration-system-simulator-container1 {
+  top: 0;
+  left: 0.21%;
+  color: #1e1e1e;
+}
+.cogeneration-system-simulator-parent {
+  position: absolute;
+  top: 209px;
+  left: -2px;
+  width: 1904px;
+  height: 307px;
+}
+.title-screen {
+  width: 100%;
+  position: relative;
+  background-color: #e5ffd9;
+  height: 940px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 100px;
+  color: #95d9ff;
+  font-family: Poppins;
+}
