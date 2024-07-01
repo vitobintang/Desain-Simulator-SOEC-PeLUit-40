@@ -8,6 +8,7 @@ import Soec2Button from "../components/Soec2Button";
 import StartButton from "../components/StartButton";
 import StopButton from "../components/StopButton";
 import Soec1 from "../components/Soec1"
+import { useNavigate } from 'react-router-dom';
 import "./Main.css";
 
 const Main = () => {
@@ -68,6 +69,7 @@ const Main = () => {
   const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
 
   const [maxValues, setMaxValues] = useState(initialMaxValues);
+  const [pageBWindow, setPageBWindow] = useState(null);
 
   const startIncreasingValues = () => {
     const duration = 10000;
@@ -199,6 +201,13 @@ const Main = () => {
     }
     setIsActive1(!isActive1);
     console.log("Button clicked");
+    if (!pageBWindow || pageBWindow.closed) {
+      const newWindow = window.open('/frame-1?buttonClicked=true', '_blank');
+      setPageBWindow(newWindow);
+    } else {
+      pageBWindow.close();
+      setPageBWindow(null);
+    }
     
     const targetElectricPower = isActive1 ? (values.electricPower + 2.1) : (values.electricPower - 2.1);
     const targetPowerSOEC = isActive1 ? (values.powerSOEC - 2.1) : (values.powerSOEC + 2.1);

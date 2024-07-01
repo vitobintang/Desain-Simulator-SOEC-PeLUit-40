@@ -1,5 +1,6 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useEffect, useContext, useRef} from 'react';
 import PropTypes from "prop-types";
+import { useLocation } from 'react-router-dom';
 import "./Soec1.css";
 
 const Soec1 = () => {
@@ -27,7 +28,7 @@ const Soec1 = () => {
     kghr20c7: { massFlow: 0, temperature: 0, pressure: 0 },
   });
   
-  const initialMaxValues = {
+  const maxValues = {
     kghr200c1: { massFlow: 452, temperature: 200, pressure: 5 },
     kghr701c3: { massFlow: 118, temperature: 701, pressure: 5 },
     kghr500c2: { massFlow: 452, temperature: 500, pressure: 5 },
@@ -52,6 +53,7 @@ const Soec1 = () => {
   };
 
   const intervalIdsRef = useRef({});
+  const location = useLocation([]);
   
   const startIncreasingValues = () => {
     const duration = 10000;
@@ -97,6 +99,16 @@ const Soec1 = () => {
       timerRef.current = null;
     }
   };
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const buttonClicked = params.get('buttonClicked');
+
+    if (buttonClicked === 'true') {
+      console.log('Button clicked!');
+      startIncreasingValues();
+    }
+  }, [location.search]);
 
   return (
     <div className="soec1-parent">
